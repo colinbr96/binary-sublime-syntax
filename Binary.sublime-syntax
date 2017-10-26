@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+name: Binary
+scope: source.c
+
+# See https://www.sublimetext.com/docs/3/scope_naming.html for alternate colors
+
+contexts:
+  main:
+    - match: (?:0)
+      scope: comment.line
+    - match: (?:1)
+      scope: string
